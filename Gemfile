@@ -15,6 +15,7 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'bcrypt', '~> 3.1.7'
 
 group :development, :test do
+  gem 'annotate'
   gem 'pry'
   gem 'rspec-rails'
   gem 'capybara', '~> 2.13'
